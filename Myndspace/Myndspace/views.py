@@ -14,4 +14,4 @@ def register(request):
             return redirect('home')  # Redirect to home page
     else:
         form = RegisterForm()
-    return render(request, 'register.html', {'form': form})  # Ensure an HttpResponse is returned
+    return render(request, 'Myndspace\register.html', {'form': form})  # Ensure an HttpResponse is returned
