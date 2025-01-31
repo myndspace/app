@@ -18,8 +18,8 @@ Including another URLconf
 
 # Uncomment next two lines to enable admin:
 #from django.contrib import admin
-from atexit import register
 from django.urls import path
+from views import register
 
 urlpatterns = [
     # Uncomment the next line to enable the admin:
