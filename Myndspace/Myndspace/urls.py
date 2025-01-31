@@ -24,5 +24,5 @@ from .views import register
 urlpatterns = [
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
-    path('register/', register,name ='register'),
+    path('register/', register, name ='register'),
 ]
